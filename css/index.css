@@ -1,0 +1,106 @@
+/* ***헤더 */
+header {
+  padding:0 11.8518%;
+  height:5rem;
+  background-color: #e3edf5;
+}
+/* 프로필 */
+#profile {
+  width:14.1875rem;
+  height:2.8125rem;
+}
+/* 사진 */
+#photo {
+  width:2.8125rem;
+  height:2.8125rem;
+  border-radius: 50%;
+}
+#photo img {
+  width:2.8125rem;
+}
+/* 인포 */
+#info {
+  margin-left:.625rem;
+}
+/* #info * {
+  color: #fafafa;
+} */
+/* 이름 */
+#name {
+  font-weight: 500;
+}
+/* 직업 */
+#job {
+  font-weight: 200;
+  font-size:.75rem;
+}
+/* 메뉴 */
+#menu {
+  width:31.625rem;
+}
+/* 메뉴 li */
+#menu ul li {
+  padding: 0 6.7193%;
+}
+/* 빈공간 */
+#blank {
+  width:14.1875rem;
+}
+
+
+/* 메인---------------------------------------------------- */
+/* 텍스트----------------------- */
+#text {
+  margin: 9% 0 0 12.6562%;
+}
+/* 글자간격 */
+#text * {
+  letter-spacing: -0.03em;
+}
+/* 슬로건 부제 */
+#slogan span {
+  font-weight: 300;
+  font-size:2.125rem;
+  line-height: 3.125rem;
+}
+/* 슬로건 주제 */
+#slogan strong {
+  font-weight: 500;
+  font-size: 3.375rem;
+  line-height: 4.625rem;
+}
+/* 라인 */
+#line {
+  width:4.75rem;
+  border-bottom:1px solid #000;
+  margin:2.3125rem 0;
+}
+/* 철학 */
+#philosophy {
+  font-weight: 300;
+  font-size: .875rem;
+  line-height: 1.5rem;
+}
+/* 버튼 영역 */
+#button {
+  margin-top:2rem;
+}
+/* 버튼 */
+#button a {
+  padding:0 1.25rem;
+  height:1.875rem;
+  line-height:1.875rem;
+  border-radius: .9375rem;
+  background-color:#b1c8da;
+  color:#262626;
+  font-weight: 400;
+  font-size: .875rem;
+  transition: .3s;
+}
+#button a:hover {
+  background-color:#94b1c7;
+}
+/* 버튼 마진 */
+#button a:nth-child(2) {
+  margin-left:1rem;
+}
