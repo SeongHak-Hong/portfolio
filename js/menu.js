@@ -10,19 +10,19 @@ for (i=0; i<menu.length; i++) {
   menu[i].addEventListener('click', function(event){
     // 메뉴 li[0]일시 about 섹션으로 이동
     if (event.target == menu[0]) {
-      scrollTo(0,0);
+      window.scrollTo({left:0,top:0,behavior:'smooth'});
     }
     // 메뉴 li[1]일시 work 섹션으로 이동
     else if (event.target == menu[1]) {
-      scrollTo(0,getSecHeight);
+      window.scrollTo({left:0,top:getSecHeight,behavior:'smooth'});
     }
     // 메뉴 li[2]일시 resume 섹션으로 이동
     else if (event.target == menu[2]) {
-      scrollTo(0,getSecHeight*2);
+      window.scrollTo({left:0,top:getSecHeight*2,behavior:'smooth'});
     }
     // 메뉴 li[3]일시 contact 섹션으로 이동
     else if (event.target == menu[3]) {
-      scrollTo(0,getSecHeight*3);
+      window.scrollTo({left:0,top:getSecHeight*3,behavior:'smooth'});
     }
   });
 
