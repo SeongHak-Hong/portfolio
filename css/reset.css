@@ -10,6 +10,8 @@
 /* position */
 .relative {position: relative;}
 .absolute {position: absolute;}
+.fixed {position: fixed;}
+.sticky {position: sticky;}
 
 /* text */
 .text-indent-9999 {text-indent: -9999em;}
@@ -44,10 +46,9 @@
 
 body {
   width: 100vw;
-  height: 100vh;
   font-family: 'Noto Sans KR', sans-serif;
   color:#262626;
-  background-color: #f6fbff ;
+  background-color: #fafafa ;
 }
 
 #container {
@@ -63,4 +64,9 @@ ul {
 a {
   text-decoration: none;
   color:#262626;
+}
+
+section {
+  height:100vh;
+  padding-left:12.6562%;
 }

@@ -1,0 +1,67 @@
+/* ***about */
+/* 필로소피 */
+#about-text-left h2 {
+  writing-mode:vertical-rl;
+  transform: rotate(180deg);
+  margin: 1rem 1rem 0 0;
+  color:#26262659;
+}
+/* 글자간격 */
+#about-text * {
+  letter-spacing: -0.03em;
+}
+/* 슬로건 부제 */
+#slogan span {
+  font-weight: 300;
+  font-size:1.375rem;
+  line-height: 1.6;
+}
+/* 슬로건 주제 */
+#slogan strong {
+  font-weight: 500;
+  font-size: 3.375rem;
+  line-height: 1.3;
+}
+/* 라인 */
+#line {
+  width:4.75rem;
+  border-bottom:1px solid #000;
+  margin:2.3125rem 0;
+}
+/* 부연설명 */
+#explain {
+  font-weight: 300;
+  font-size: .875rem;
+  line-height: 1.5rem;
+}
+/* 버튼 영역 */
+#button {
+  margin-top:2rem;
+}
+/* 버튼 */
+#button a {
+  padding:0 1.25rem;
+  height:1.875rem;
+  line-height:1.875rem;
+  border-radius: .9375rem;
+  background-color:#C3BCDA;
+  color:#262626;
+  font-weight: 400;
+  font-size: .875rem;
+  transition: .3s;
+}
+#button a:hover {
+  background-color:#b7acdb;
+}
+/* 버튼 마진 */
+#button a:nth-child(2) {
+  margin-left:1rem;
+}
+/* 이미지 */
+#about-img {
+  right:32%;
+  top:52%;
+  transform: translate(-50%,-50%);
+  width:10%;
+  z-index: -1;
+}
