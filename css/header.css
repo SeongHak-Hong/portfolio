@@ -6,7 +6,7 @@ header {
   top:0;
   right:0;
   z-index: 100;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
 }
 /* 프로필 */
 #profile {
@@ -51,7 +51,7 @@ header {
   font-weight: 400;
   line-height: 0;
   cursor: pointer;
-  color:#2a141498;
+  color:#2a1414c0;
 }
 /* 메뉴 li:hover */
 #menu ul li:hover {
