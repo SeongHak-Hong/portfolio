@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400&display=swap');
 
 /* display */
 .flex {display:flex;}
@@ -47,7 +47,7 @@
 body {
   width: 100vw;
   font-family: 'Noto Sans KR', sans-serif;
-  color:#262626;
+  color:#2a1414;
   background-color: #fafafa ;
 }
 
@@ -62,10 +62,9 @@ ul {
 
 a {
   text-decoration: none;
-  color:#262626;
+  color:#2a1414;
 }
 
 section {
   height:100vh;
-  padding-left:12.6562%;
 }

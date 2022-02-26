@@ -1,12 +1,13 @@
 /* ***헤더 */
 header {
-  padding:0 11.8518%;
+  padding:0 2.8518%;
   height:5rem;
   left:0;
   top:0;
   right:0;
-  backdrop-filter: blur(10px);
   z-index: 100;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.18);
 }
 /* 프로필 */
 #profile {
@@ -47,24 +48,22 @@ header {
 #menu ul li {
   width:7.5rem;
   box-sizing: border-box;
-  transition: .2s;
-  font-weight: 300;
+  transition: .3s;
+  font-weight: 400;
   line-height: 0;
   cursor: pointer;
+  color:#2a141498;
 }
 /* 메뉴 li:hover */
 #menu ul li:hover {
   font-size:1.25rem;
-  font-weight: 400;
   line-height: 0;
+  font-weight: 500;
+  color:#2a1414;
 }
 /* 메뉴  li active */
 #menu ul li.active {
   font-size:1.25rem;
   font-weight: 400;
   line-height: 0;
-}
-/* 빈공간 */
-#blank {
-  width:11rem;
 }
