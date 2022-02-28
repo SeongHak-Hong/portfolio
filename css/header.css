@@ -60,9 +60,3 @@ header {
   font-weight: 500;
   color:#2a1414;
 }
-/* 메뉴  li active */
-#menu ul li.active {
-  font-size:1.25rem;
-  font-weight: 400;
-  line-height: 0;
-}
