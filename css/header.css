@@ -15,14 +15,16 @@ header {
 #menu ul li {
   width:9.5rem;
   box-sizing: border-box;
-  font-weight: 400;
-  line-height: 0;
   cursor: pointer;
-  transition: .3s;
+}
+/* 메뉴 폰트 */
+#menu ul li a {
+  font-weight: 400;
   letter-spacing: .12em;
   color:#26262671;
+  transition: .3s;
 }
 /* 메뉴 li:hover */
-#menu ul li:hover {
+#menu ul li:hover a {
   color:#262626;
 }

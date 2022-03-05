@@ -1,0 +1,27 @@
+/* ***헤드 메뉴 첫번째 li - about */
+#menu ul li:nth-child(3) a {
+  color:#262626;
+}
+
+
+
+
+/* ***텍스트 섹션 */
+#text * {
+  letter-spacing: .25em;
+  text-align: center;
+}
+/* 부제 */
+#text span {
+  margin-bottom: 2rem;
+}
+/* 라인 */
+#line {
+  width: 4.75rem;
+  border-bottom: 1px solid #2a1414;
+  margin-bottom: 4rem;
+}
+/*  */
+#text p {
+  margin-bottom: 4rem;
+}

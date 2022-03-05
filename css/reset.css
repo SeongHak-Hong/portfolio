@@ -39,11 +39,15 @@
 .border-box {box-sizing: border-box;}
 
 
+
+
+/* 전체 마진, 패딩 */
 * {
   padding:0;
   margin:0;
 }
 
+/* 바디 */
 body {
   width: 100vw;
   font-family: 'Noto Sans KR', sans-serif;
@@ -51,20 +55,49 @@ body {
   background-color: #fafafa;
 }
 
+/* 컨테이너 */
 #container {
   width:100%;
   height:100%;
 }
 
+/* ul */
 ul {
   list-style-type: none;
 }
 
+/* a태그 */
 a {
   text-decoration: none;
   color:#262626;
 }
 
+/* 섹션 */
 section {
   height:100vh;
+}
+
+/* 강조(strong) */
+strong {
+  font-size:2.625rem;
+  font-weight: 400;
+}
+
+/* 문단(p) */
+p {
+  font-weight: 300;
+  font-size: .875rem;
+}
+
+
+/* 푸터 */
+footer {
+  width:100%;
+  height:5rem;
+  margin-top: 5rem;
+}
+footer p {
+  font-weight: 300;
+  font-size: .75rem;
+  color:#262626cc
 }

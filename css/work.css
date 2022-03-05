@@ -1,0 +1,70 @@
+/* ***헤드 메뉴 첫번째 li - about */
+#menu ul li:nth-child(2) a {
+  color:#262626;
+}
+
+
+
+
+/* ***포트폴리오 섹션 */
+/* 사이트설명, 이미지 박스, 타이틀영역 */
+section > div, section > h2 {
+  width:75rem;
+}
+/* 섹션 타이틀 */
+section > h2 {
+  margin-bottom: 2rem;
+}
+/* 섹션 콘텐츠영역 */
+section > div {
+  padding:3rem 2rem;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+}
+/* 왼쪽영역 */
+.left {
+  width:40%;
+}
+/* 왼쪽영역 내 자식들 */
+.left > * {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+/* 왼쪽영역 타이틀, 설계의도 */
+.left > h2, .left > div:nth-of-type(3) {
+  margin-bottom: 3.5rem;
+}
+/* 왼쪽영역 타이틀 */
+.left > h2 {
+  font-weight: 500;
+}
+/* 왼쪽영역 영문 타이틀 */
+.left > h2 span {
+  font-size: 1.125rem;
+}
+/* 왼쪽영역 주제별 타이틀 */
+.left > div > span {
+  font-weight: 500;
+  margin-right: .5rem;
+}
+/* 왼쪽영역 버튼 */
+.left a {
+  padding: .25rem 1.25rem;
+  border-radius: 0.9375rem;
+  background-color: #2626261f;
+  font-weight: 400;
+  font-size: .875rem;
+  transition: .3s;
+  margin-right: 1rem;
+}
+.left a:hover {
+  background-color: #26262656;
+}
+/* 오른쪽영역 */
+.right {
+  flex:1;
+  margin-left: 2rem;
+}
+.right img {
+  width:100%;
+}
