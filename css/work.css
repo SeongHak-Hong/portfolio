@@ -68,3 +68,30 @@ section > div {
 .right img {
   width:100%;
 }
+
+
+
+
+/* ***사이드메뉴 */
+#side-menu {
+  left:5%;
+  top:50%;
+  transform: translateY(-50%);
+}
+/* 사이드메뉴 호버 편하도록 padding값 */
+#side-menu > div {
+  padding:1rem;
+  cursor: pointer;
+}
+/* 사이드메뉴 스타일링 */
+#side-menu div div {
+  width: 1.5rem;
+  padding:.1rem 0;
+  background-color: #26262671;
+  box-sizing: border-box;
+  transition: .3s;
+}
+/* 사이드메뉴 상하간격 */
+#side-menu div ~ div {
+  margin-top: 1rem;
+}
