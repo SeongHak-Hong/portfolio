@@ -6,6 +6,13 @@ header {
   right:0;
   z-index: 100;
   backdrop-filter: blur(50px);
+  border-top: 2px solid #262626;
+  padding: 0 10%;
+}
+/* 로고 */
+#logo {
+  letter-spacing: .5em;
+  font-weight: 500;
 }
 /* 메뉴 */
 #menu {

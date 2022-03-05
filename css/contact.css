@@ -11,9 +11,16 @@
   letter-spacing: .25em;
   text-align: center;
 }
+/* 주제 */
+#text h2 {
+  font-size: 3.25rem;
+  font-weight: 400;
+}
 /* 부제 */
-#text span {
-  margin-bottom: 2rem;
+#text p {
+  margin-bottom: 4rem;
+  font-size: 1.25rem;
+  margin-top: 1rem;
 }
 /* 라인 */
 #line {
@@ -21,7 +28,7 @@
   border-bottom: 1px solid #2a1414;
   margin-bottom: 4rem;
 }
-/*  */
-#text p {
-  margin-bottom: 4rem;
+/* 연락처 상하간격 */
+#contact span ~ span {
+  margin-top: .5rem;
 }
