@@ -1,43 +1,11 @@
 /* ***헤더 */
 header {
-  padding:0 2.8518%;
-  height:5rem;
+  height:4.25rem;
   left:0;
   top:0;
   right:0;
   z-index: 100;
-  backdrop-filter: blur(30px);
-}
-/* 프로필 */
-#profile {
-  width:14.1875rem;
-  height:2.8125rem;
-}
-/* 사진 */
-#photo {
-  width:2.8125rem;
-  height:2.8125rem;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
-#photo img {
-  width:2.8125rem;
-}
-/* 인포 */
-#info {
-  margin-left:.625rem;
-}
-/* #info * {
-  color: #fafafa;
-} */
-/* 이름 */
-#name {
-  font-weight: 500;
-}
-/* 직업 */
-#job {
-  font-weight: 200;
-  font-size:.75rem;
+  backdrop-filter: blur(50px);
 }
 /* 메뉴 */
 #menu {
@@ -45,18 +13,16 @@ header {
 }
 /* 메뉴 li */
 #menu ul li {
-  width:7.5rem;
+  width:9.5rem;
   box-sizing: border-box;
-  transition: .3s;
   font-weight: 400;
   line-height: 0;
   cursor: pointer;
-  color:#2a1414c0;
+  transition: .3s;
+  letter-spacing: .12em;
+  color:#26262671;
 }
 /* 메뉴 li:hover */
 #menu ul li:hover {
-  font-size:1.25rem;
-  line-height: 0;
-  font-weight: 500;
-  color:#2a1414;
+  color:#262626;
 }

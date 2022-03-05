@@ -47,8 +47,8 @@
 body {
   width: 100vw;
   font-family: 'Noto Sans KR', sans-serif;
-  color:#2a1414;
-  background-color: #fafafa ;
+  color:#262626;
+  background-color: #fafafa;
 }
 
 #container {
@@ -62,7 +62,7 @@ ul {
 
 a {
   text-decoration: none;
-  color:#2a1414;
+  color:#262626;
 }
 
 section {

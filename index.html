@@ -15,30 +15,20 @@
   <!-- ***컨테이너 -->
   <div id="container" class="flex flex-direction-column">
     <!-- 헤더 -->
-    <header class="flex align-items-center space-between fixed">
-      <!-- 프로필 -->
-      <div id="profile" class="flex space-between align-items-center">
-        <div id="photo" class="hidden">
-          <img src="./img/profile.png">
-        </div>
-        <div id="info" class="flex flex-direction-column">
-          <div id="name" class="white-space-nowrap">홍성학 SeongHak Hong</div>
-          <div id="job" class="white-space-nowrap">UX/UI designer / Web publisher</div>
-        </div>
-      </div>
+    <header class="flex align-items-center justify-content-center fixed">
       <!-- 메뉴 -->
-      <div id="menu" class="justify-self-center">
+      <div id="menu">
         <ul class="flex">
-          <li class="flex justify-content-center">
+          <li class="flex justify-content-center" data-menu="0">
             ABOUT
           </li>
-          <li class="flex justify-content-center">
+          <li class="flex justify-content-center" data-menu="1">
             WORK
           </li>
-          <li class="flex justify-content-center">
+          <li class="flex justify-content-center"  data-menu="2">
             RESUME
           </li>
-          <li class="flex justify-content-center">
+          <li class="flex justify-content-center" data-menu="3">
             CONTACT
           </li>
         </ul>
@@ -46,22 +36,32 @@
     </header>
 
 
-    <!-- ***about -->
-    <section id="about" class="relative flex align-items-center">
-      
+
+
+    <!-- ***인트로(intro) -->
+    <section id="intro" class="flex flex-direction-column align-items-center justify-content-center">
+      <strong>SEONGHAK HONG</strong>
+      <span>web designer</span>
+    </section>
+
+
+
+
+    <!-- ***철학(philosophy) -->
+    <section id="philosophy" class="flex align-items-center justify-content-center relative">
       <!-- about-text -->
-      <div id="about-text" class="flex flex-direction-column">
-        <div id="slogan" class="flex flex-direction-column">
+      <div id="phil-text" class="flex flex-direction-column justify-content-center align-items-center">
+        <div id="slogan" class="flex flex-direction-column align-items-center">
           <span class="white-space-nowrap">Hong's philosophy</span>
           <strong class="white-space-nowrap">사용자의 시선에 맞추고<br>브랜드의 가치를 높이다</strong>
         </div>
         <div id="line"></div>
-        <div id="explain" class="white-space-nowrap">
+        <p id="explain" class="white-space-nowrap">
           웹디자이너의 길에 들어서기 전 했던 마케팅을 하면서 느낀 바가 있습니다.<br>
           '사용자의 이용경험이 곧, 그 기업의 이미지가 된다.' 아무리 이미지를 좋게 포장한들 이용경험은 쉽게 바뀌지 않습니다.<br>
           웹은 사용자의 이용경험에 있어 최전방에 있습니다. 웹 방문자에게 좋은 이용경험을 주는 것이 최고의 브랜딩 전략이라고 생각합니다.<br>
           기업의 이미지와 이용목적에 맞게 웹을 설계하여 기업과 기업 이용자 모두에게 최고의 경험을 주는 디자이너가 되겠습니다.
-        </div>
+        </p>
         <div id="button" class="flex">
             <a href="#" class="text-align-center">CONTACT</a>
             <a href="#" class="text-align-center">SEE WORK</a>
@@ -74,22 +74,10 @@
     </section>
 
 
-    <!-- ***work -->
-    <section id="work">
-      <h2 class="none">work</h2>
-    </section>
-
-
-    <!-- ***resume -->
-    <section id="resume">
-      <h2 class="none">resume</h2>
-    </section>
-
-
-    <!-- ***contact -->
-    <section id="contact">
-      <h2 class="none">contact</h2>
-    </section>
+    <footer class="flex justify-content-center align-items-center">
+      <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+        © 2022 SeongHak Hong. All Rights Reserved.</p>
+    </footer>
 
   </div>
 </body>
