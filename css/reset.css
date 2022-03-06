@@ -52,7 +52,7 @@ body {
   width: 100vw;
   font-family: 'Noto Sans KR', sans-serif;
   color:#262626;
-  background: url(../img/paper_texture.jpg) repeat-y 50% 50% / cover;
+  background-color: #fafafa;
 }
 
 /* 컨테이너 */

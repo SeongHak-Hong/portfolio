@@ -7,6 +7,7 @@
   <link href="./css/reset.css" rel="stylesheet">
   <link href="./css/header.css" rel="stylesheet">
   <link href="./css/index.css" rel="stylesheet">
+  <script src="./js/mobilemenu.js" defer></script>
   <title>SeongHak Hong</title>
 </head>
 <body>
@@ -33,10 +34,27 @@
         </ul>
       </div>
       <!-- 모바일메뉴 버튼 -->
-      <div id="mobile-menu">
+      <div id="mobile-menu-btn">
         <img src="./img/icon/menu_alt_02.png" alt="메뉴 아이콘">
       </div>
     </header>
+    <!-- 모바일메뉴 -->
+    <div id="mobile-menu" class="fixed">
+      <ul class="flex flex-direction-column align-items-end">
+        <li id="close-btn">
+          <img src="./img/icon/close_small.png" alt="닫기버튼">
+        </li>
+        <li>
+          <a href="./index.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="./work.html">WORK</a>
+        </li>
+        <li>
+          <a href="./contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
 
 
 
