@@ -35,3 +35,31 @@ header {
 #menu ul li:hover a {
   color:#262626;
 }
+/* 모바일 메뉴 아이콘 */
+#mobile-menu {
+  opacity: 0;
+  pointer-events: none;
+  width: 2rem;
+}
+/* 모바일 메뉴 아이콘 이미지 */
+#mobile-menu img {
+  width:100%;
+}
+
+
+/* ***미디어쿼리 */
+@media screen and (max-width:786px) {
+  /* ***헤더 */
+  header {
+    padding: 0 6%;
+  }
+  /* 메뉴 */
+  #menu {
+    display: none;
+  }
+  /* 모바일 메뉴 아이콘 */
+  #mobile-menu {
+    opacity: 1;
+    pointer-events:all;
+  }
+}

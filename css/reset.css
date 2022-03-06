@@ -52,7 +52,7 @@ body {
   width: 100vw;
   font-family: 'Noto Sans KR', sans-serif;
   color:#262626;
-  background-color: #fafafa;
+  background: url(../img/paper_texture.jpg) repeat-y 50% 50% / cover;
 }
 
 /* 컨테이너 */
@@ -96,8 +96,33 @@ footer {
   height:5rem;
   margin-top: 5rem;
 }
+/* 푸터 문단 */
 footer p {
   font-weight: 300;
   font-size: .75rem;
-  color:#262626cc
+  color:#262626cc;
+  text-align: center;
+}
+
+
+/* ***미디어쿼리 */
+@media screen and (max-width:480px) {
+  /* 푸터 */
+  footer {
+    margin-top: 3rem;
+  }
+  /* 푸터 문단 */
+  footer p {
+    padding: 0 5%;
+  }
+  /* 강조(strong) */
+  strong {
+    font-size:1.25rem;
+  }
+
+  /* 문단(p) */
+  p {
+    font-weight: 300;
+    font-size: .75rem;
+  }
 }

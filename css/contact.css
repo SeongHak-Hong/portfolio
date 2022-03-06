@@ -32,3 +32,45 @@
 #contact span ~ span {
   margin-top: .5rem;
 }
+
+
+
+
+/* ***미디어쿼리 */
+@media screen and (max-width:768px) {
+  /* 주제 */
+  #text h2 {
+    font-size: 2rem;
+    padding: 0 5%;
+  }
+  /* 부제 */
+  #text p {
+    font-size: 1.25rem;
+    padding: 0 5%;
+    margin-bottom: 3rem;
+  }
+  /* 라인 */
+  #line {
+    margin-bottom: 3rem;
+  }
+  /* 연락처 */
+  #contact span {
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  /* 주제 */
+  #text h2 {
+    font-size: 1.25rem;
+  }
+  /* 부제 */
+  #text p {
+    font-size: 0.875rem;
+  }
+  /* 연락처 */
+  #contact span {
+    font-size: 0.875rem;
+  }
+}

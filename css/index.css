@@ -8,15 +8,19 @@
 #intro * {
   letter-spacing: .5em;
 }
+/* 인트로 주제 */
 #intro strong {
   font-size: 4rem;
   font-weight: 400;
 }
+/* 인트로 부제 */
 #intro span {
   font-size: 1.75rem;
   margin-top:1rem;
   font-weight: 200;
 }
+
+
 
 
 /* ***철학(philosophy) */
@@ -35,16 +39,16 @@
 #slogan {
   width:100%;
 }
+/* 슬로건 주제 */
+#slogan strong {
+  margin-bottom: 3rem;
+}
 /* 슬로건 부제 */
 #slogan > span {
   font-family: 'Noto Serif KR', serif;
   font-weight: 300;
   color:#262626bd;
   margin-bottom: 1rem;
-}
-/* 슬로건 주제 */
-#slogan strong {
-  margin-bottom: 3rem;
 }
 /* 라인 */
 #line {
@@ -83,4 +87,80 @@
   right:7.395%;
   top:12.6865%;
   z-index: -1;
+}
+
+
+/* ***미디어쿼리 */
+@media screen and (max-width:1024px) {
+  /* 인트로 주제 */
+  #intro strong {
+    font-size: 3.25rem;
+  }
+  /* 인트로 부제 */
+  #intro span {
+    font-size: 1.75rem;
+    margin-top:1rem;
+    font-weight: 200;
+  }
+  /* 슬로건 주제 */
+  #slogan strong {
+    margin-bottom: 2rem;
+  }
+  /* 슬로건 부제 */
+  #slogan > span {
+    font-size: .875rem;
+  }
+  /* 라인 */
+  #line {
+    margin-bottom: 2rem;
+  }
+  /* 철학 박스 크기 */
+  #phil-text {
+    width:80%;
+  }
+  /* 부연설명 */
+  #explain {
+    width:90%;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  /* 버튼 폰트 */
+  #button a {
+    font-size: .875rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  /* 인트로 주제 */
+  #intro strong {
+    font-size: 2.25rem;
+  }
+  /* 인트로 부제 */
+  #intro span {
+    font-size: 1.25rem;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  /* 인트로 주제 */
+  #intro strong {
+    font-size: 1.25rem;
+  }
+  /* 인트로 부제 */
+  #intro span {
+    font-size: .875rem;
+  }
+  /* 슬로건 부제 */
+  #slogan > span {
+    font-size: .75rem;
+  }
+  /* 부연설명 */
+  #explain {
+    font-size: .875rem;
+  }
+  /* 버튼 폰트 */
+  #button a {
+    font-size: .75rem;
+  }
 }

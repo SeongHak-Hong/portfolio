@@ -9,7 +9,7 @@
 /* ***포트폴리오 섹션 */
 /* 사이트설명, 이미지 박스, 타이틀영역 */
 section > div, section > h2 {
-  width:75rem;
+  width:62.5%;
 }
 /* 섹션 타이틀 */
 section > h2 {
@@ -30,7 +30,7 @@ section > div {
   margin-bottom: 1rem;
   font-weight: 300;
 }
-/* 왼쪽영역 타이틀, 설계의도 */
+/* 왼쪽영역 타이틀, 미디어쿼리 */
 .left > h2, .left > div:nth-of-type(4) {
   margin-bottom: 3.5rem;
 }
@@ -94,4 +94,82 @@ section > div {
 /* 사이드메뉴 상하간격 */
 #side-menu div ~ div {
   margin-top: 1rem;
+}
+
+
+
+
+/* ***미디어쿼리 */
+@media screen and (max-width:1024px) {
+  /* 사이드메뉴 */
+  #side-menu {
+    display: none;
+  }
+  /* 섹션 콘텐츠영역, 섹션 타이틀 */
+  section > div, section > h2 {
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  /* 섹션 */
+  section {
+    height:max-content;
+    margin-bottom: 20%;
+  }
+  /* 첫번째 섹션 */
+  section:nth-of-type(1) {
+    margin-top: 15%;
+  }
+  /* 섹션 콘텐츠영역, 섹션 타이틀 */
+  section > div, section > h2 {
+    flex-direction: column;
+    width:95%;
+  }
+  /* 섹션 콘텐츠영역 */
+  section > div {
+    padding: 5% 5%;
+  }
+  /* 섹션 타이틀 */
+  section > h2 {
+    margin-bottom: 1rem;
+    text-indent: 3%;
+    font-size: 1.25rem;
+    padding: 0 5%;
+  }
+  /* 왼쪽영역 */
+  .left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  /* 왼쪽영역 내 모든 것 */
+  .left > * {
+    margin-bottom: .75rem;
+  }
+  /* 왼쪽영역 타이틀, 미디어쿼리 */
+  .left > h2, .left > div:nth-of-type(4) {
+    margin-bottom: 1.5rem;
+  }
+  /* 왼쪽영역 타이틀 */
+  .left > h2 {
+    font-size: 1.25rem;
+  }
+  /* 오른쪽영역 */
+  .right {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+  /* 오른쪽영역 이미지 */
+  .right img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  /* 왼쪽영역 내 모든 것 */
+  .left > * {
+    font-size: .875rem;
+  }
 }
