@@ -158,6 +158,7 @@
   /* 부연설명 */
   #explain {
     font-size: .875rem;
+    line-height: 1.6;
   }
   /* 버튼 폰트 */
   #button a {
