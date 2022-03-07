@@ -24,6 +24,9 @@
 
 
 /* ***철학(philosophy) */
+#philosophy {
+  transform: translateY(-3.5%);
+}
 /* 철학 박스 크기 */
 #phil-text {
   width:52.0833%;
@@ -91,6 +94,14 @@
 
 
 /* ***미디어쿼리 */
+@media screen and (max-width:1440px) {
+  /* 부연설명 */
+  #explain {
+    width:90%;
+  }
+}
+
+
 @media screen and (max-width:1024px) {
   /* 인트로 주제 */
   #intro strong {
@@ -120,7 +131,6 @@
   }
   /* 부연설명 */
   #explain {
-    width:90%;
     margin-bottom: 2rem;
     font-size: 1rem;
   }
@@ -150,6 +160,13 @@
   /* 인트로 부제 */
   #intro span {
     font-size: .875rem;
+  }
+  /* 스크롤다운 */
+  #scroll {
+    width:2rem;
+    left:50%;
+    bottom:5%;
+    transform: translateX(-50%);
   }
   /* 슬로건 부제 */
   #slogan > span {
